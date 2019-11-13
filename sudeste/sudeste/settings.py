@@ -137,7 +137,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = '/www/static/'
 STATICFILES_DIRS=[
-    'www/static',
+    '/www/static',
 ]
 # STATIC_ROOT = 'c://Daniel//projetos//sudeste-projeto//sudeste//static/'
 # STATICFILES_DIRS = [
