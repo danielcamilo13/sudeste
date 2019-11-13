@@ -1,0 +1,33 @@
+uploaded files
+https://www.youtube.com/watch?v=Zx09vcYq1oc
+https://docs.djangoproject.com/en/2.2/topics/files/
+
+Explicacao sobre expressao regular
+https://www.webforefront.com/django/regexpdjangourls.html
+
+OpenPyXL
+http://zetcode.com/python/openpyxl/
+
+troubleshooting
+para o problema para criar uma nova chave, foi usado a url abaixo para informação
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb3-ssh.html
+(-- interactive foi usado aqui )
+
+para ser usado na publicacao via eb para rds
+https://www.1strategy.com/blog/2017/05/23/tutorial-django-elastic-beanstalk/
+comando que foi usado para tal criacao
+eb create --scale 1 -db -db.engine postgres -db.i db.t2.micro
+
+info para postgree:
+o nome admin e reservado na criacao de uma base de dados
+
+tive alguns problemas sobre g.submodules na hora de publica
+necessario fazer uma limpeza com registros que se perderam (git rm --cached *)
+
+no link abaixo explica entre outras coisas por que o elasticbeanstalk dá erro para subir um projeto django
+https://medium.com/@aslamahrahman/deploying-django-application-on-aws-elastic-beanstalk-with-postgresql-db-windows-6bbb158ef9c9
+
+
+https://realpython.com/deploying-a-django-app-and-postgresql-to-aws-elastic-beanstalk/
+me ajudou a subir totalmente via EB
+detalhe da instalacao: para conseguir automatizar a criacao do usuario era necessario criar uma app e nela criar a estrutura management/commands

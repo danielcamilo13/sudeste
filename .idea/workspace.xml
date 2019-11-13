@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a6c53e7-bd8f-4b2d-84f3-3f43675fd5eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/sudeste" beforeDir="false" afterPath="$PROJECT_DIR$/sudeste" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudeste/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/manager/management/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/manager/management/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/manager/management/commands/createsu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/app_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/auth/user/add_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/auth/user/change_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/base_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/change_form_object_tools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/change_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/change_list_object_tools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/change_list_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/date_hierarchy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/delete_confirmation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/delete_selected_confirmation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/edit_inline/stacked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/edit_inline/tabular.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/includes/fieldset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/includes/object_delete_summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/invalid_setup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/object_history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/popup_response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/prepopulated_fields_js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/search_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/submit_line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/widgets/clearable_file_input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/widgets/foreign_key_raw_id.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/widgets/many_to_many_raw_id.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/widgets/radio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/widgets/related_widget_wrapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/widgets/split_datetime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/admin/widgets/url.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/registration/logged_out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/registration/password_change_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/registration/password_change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/registration/password_reset_complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/registration/password_reset_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/registration/password_reset_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/registration/password_reset_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/templates/registration/password_reset_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/sudeste-main/wsgi.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sudeste/sudeste/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sudeste/sudeste/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="139" selection-start-line="139" selection-end-line="139" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>https://docs.djangoproject.com/en/2.2/howto/static-files/</find>
+      <find>BASE_DIR</find>
+      <find>container</find>
+      <find>header</find>
+      <find>dashboard</find>
+      <find>static</find>
+      <find>template</find>
+      <find>STATICFILES_FINDERS¶</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sudeste/static/admin/css/base.css" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/sudeste/cadastro/models.py" />
+        <option value="$PROJECT_DIR$/sudeste/cadastro/admin.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/sudeste/sudeste/urls.py" />
+        <option value="$PROJECT_DIR$/sudeste/sudeste/static/admin/css/base.css" />
+        <option value="$PROJECT_DIR$/.ebextensions/02_python.config" />
+        <option value="$PROJECT_DIR$/sudeste/sudeste/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="120" />
+    <option name="y" value="80" />
+    <option name="width" value="816" />
+    <option name="height" value="641" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
+              <item name=".ebextensions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="sudeste" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="sudeste" type="462c0819:PsiDirectoryNode" />
+              <item name="sudeste" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Daniel\projetos\sudeste-projeto\sudeste\sudeste" />
+      <recent name="C:\Daniel\projetos\sudeste-projeto\sudeste" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python">
+      <module name="sudeste-projeto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sudeste" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sudeste/manage.py" />
+      <option name="PARAMETERS" value="runserver 10020" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a6c53e7-bd8f-4b2d-84f3-3f43675fd5eb" name="Default Changelist" comment="" />
+      <created>1573531501175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573531501175</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sudeste/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/cadastro/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/cadastro/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/cadastro/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/sudeste/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/sudeste/templates/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/sudeste/templates/admin/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/sudeste/templates/admin/app_index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/sudeste/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/sudeste/static/admin/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="782" column="10" selection-start-line="782" selection-start-column="1" selection-end-line="782" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/sudeste/static/admin/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/sudeste/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/READM3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-end-line="2" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
