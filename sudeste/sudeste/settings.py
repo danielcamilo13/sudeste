@@ -135,24 +135,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_ROOT = os.path.join(BASE_DIR,'..','www','static')
-STATIC_URL = '/static/'
+STATIC_URL = '/www/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'www','static'),]
-
-# STATIC_ROOT = os.path.join('www','static')
-#A linha abaixo funcionou com sucesso no AWS porem localmente os estaticos não são carregados
-# STATIC_ROOT = os.path.join(BASE_DIR, "..", "www", "static")
-
-
-
-# Testes antigos que ainda não serão deletados
-# STATICFILES_DIRS=[
-#     '/www/static',
-# ]
-# STATIC_ROOT = 'c://Daniel//projetos//sudeste-projeto//sudeste//static/'
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, "static"),'/var/www/static/',
-# ]
-# STATIC_ROOT="C://Daniel//projetos//sudeste-projeto//sudeste//sudeste//static//admin"
-# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static/'), ]
-
 
