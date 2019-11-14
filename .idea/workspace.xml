@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a6c53e7-bd8f-4b2d-84f3-3f43675fd5eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/templates/admin/base_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/sudeste/templates/admin/base_site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sudeste/templates/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/changelists.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/responsive_rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/widgets.css" beforeDir="false" />
-    </list>
+    <list default="true" id="0a6c53e7-bd8f-4b2d-84f3-3f43675fd5eb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +267,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
