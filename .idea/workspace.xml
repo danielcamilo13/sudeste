@@ -155,26 +155,28 @@
             <path>
               <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
               <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
-              <item name="sudeste" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
               <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
-              <item name="sudeste" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
               <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
-              <item name="sudeste" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
               <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
-              <item name="sudeste" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
