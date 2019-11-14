@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a6c53e7-bd8f-4b2d-84f3-3f43675fd5eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sudeste/sudeste/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudeste/sudeste/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/templates/admin/base_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/sudeste/templates/admin/base_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sudeste/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/responsive_rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudeste/www/static/admin/css_bck/widgets.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +37,43 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sudeste/sudeste/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="121">
               <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sudeste/templates/admin/base_site.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sudeste/templates/admin/app_index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sudeste/templates/admin/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sudeste/templates/admin/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="83" column="59" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -70,6 +118,7 @@
       <find>template</find>
       <find>STATICFILES_FINDERS¶</find>
       <find>BASE_DIR</find>
+      <find>side</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,10 +136,12 @@
         <option value="$PROJECT_DIR$/sudeste/sudeste/static/admin/css/base.css" />
         <option value="$PROJECT_DIR$/.ebextensions/02_python.config" />
         <option value="$PROJECT_DIR$/sudeste/sudeste/settings.py" />
+        <option value="$PROJECT_DIR$/sudeste/templates/admin/base_site.html" />
+        <option value="$PROJECT_DIR$/sudeste/templates/admin/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="120" />
     <option name="y" value="80" />
     <option name="width" value="816" />
@@ -117,13 +168,31 @@
             <path>
               <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
               <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
+              <item name=".elasticbeanstalk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
               <item name="sudeste" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
               <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
               <item name="sudeste" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
               <item name="sudeste" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sudeste-projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sudeste-projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="sudeste" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,15 +284,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="80" width="816" height="641" extended-state="0" />
+    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46296296" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39566928" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39443535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,8 +379,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sudeste/sudeste/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="121">
           <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/templates/admin/app_index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/templates/admin/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/templates/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudeste/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="83" column="59" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
         </state>
       </provider>
     </entry>
