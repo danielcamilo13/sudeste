@@ -55,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="436">
-              <caret line="30" column="86" lean-forward="true" selection-start-line="30" selection-end-line="30" selection-end-column="86" />
+              <caret line="30" column="86" selection-start-line="30" selection-end-line="30" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sudeste/sudeste/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+            <state relative-caret-position="342">
+              <caret line="136" column="36" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -473,7 +473,7 @@
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
-          <caret line="30" column="86" lean-forward="true" selection-start-line="30" selection-end-line="30" selection-end-column="86" />
+          <caret line="30" column="86" selection-start-line="30" selection-end-line="30" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -486,8 +486,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sudeste/sudeste/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+        <state relative-caret-position="342">
+          <caret line="136" column="36" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
         </state>
       </provider>
     </entry>
