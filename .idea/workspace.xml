@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a6c53e7-bd8f-4b2d-84f3-3f43675fd5eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.ebextensions/02_python.config" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/02_python.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sudeste/sudeste/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudeste/sudeste/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/sudeste/sudeste/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="136" column="48" selection-start-line="136" selection-start-column="48" selection-end-line="136" selection-end-column="48" />
+              <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -519,7 +518,7 @@
     <entry file="file://$PROJECT_DIR$/sudeste/sudeste/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="136" column="48" selection-start-line="136" selection-start-column="48" selection-end-line="136" selection-end-column="48" />
+          <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
         </state>
       </provider>
     </entry>
