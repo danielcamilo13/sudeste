@@ -2,7 +2,7 @@
     DJANGO Admin styles
 */
 
-@import url(fonts.css);
+@import urlcontent-main(fonts.css);
 
 body {
     margin: 0;
@@ -786,7 +786,7 @@ table#change-history tbody th {
 
 #content-main {
     float: left;
-    width: 100%;
+    width: 80%;
 }
 
 #content-related {

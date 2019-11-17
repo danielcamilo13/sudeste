@@ -1,0 +1,37 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_list %}
+
+{% block extrastyle %}
+  {{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% block stylesheet %}{% static "admin/css/base.css" %}{% endblock %}">
+
+{% endblock %}
+
+{% block extrahead %}
+{{ block.super }}
+{{ media.js }}
+{% endblock %}
+
+{% block coltype %}flex{% endblock %}
+
+{% block content %}
+<h2>Upload de arquivos</h2>
+<div id="content-main">
+    <form method ="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div>
+            <table><tr>
+                <th>
+                    <input type="file" name="documento">
+                </th></tr><tr>
+                <th>
+                    <button type="submit">Upload</button>
+                </th></tr>
+        </div>
+    </form>
+</div>
+
+{%if url%}
+<p>uploaded file: <a href="{{ url }}">{{ url }}</a>
+    {%endif%}
+    {%endblock%}
