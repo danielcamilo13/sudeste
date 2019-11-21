@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a6c53e7-bd8f-4b2d-84f3-3f43675fd5eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudeste/sudeste/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudeste/sudeste/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,16 +47,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="188">
+              <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sudeste/sudeste/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
@@ -153,8 +151,8 @@
         <option value="$PROJECT_DIR$/.ebextensions/02_python.config" />
         <option value="$PROJECT_DIR$/sudeste/templates/admin/base_site.html" />
         <option value="$PROJECT_DIR$/sudeste/templates/admin/index.html" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/sudeste/sudeste/settings.py" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -283,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574294462718</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="MySQL Python">
+      <created>1574298250780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574298250780</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -304,13 +309,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27659574" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27659574" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32871974" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.46153846" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.46153846" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -348,7 +353,8 @@
     <MESSAGE value="2019 11 13 12:09" />
     <MESSAGE value="2019 11 17 12:01" />
     <MESSAGE value="python anywhere" />
-    <option name="LAST_COMMIT_MESSAGE" value="python anywhere" />
+    <MESSAGE value="MySQL Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="MySQL Python" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sudeste/manage.py">
@@ -504,17 +510,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sudeste/sudeste/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="100" lean-forward="true" selection-start-line="89" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
         </state>
       </provider>
     </entry>
