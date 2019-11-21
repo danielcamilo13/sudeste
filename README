@@ -31,3 +31,7 @@ https://medium.com/@aslamahrahman/deploying-django-application-on-aws-elastic-be
 https://realpython.com/deploying-a-django-app-and-postgresql-to-aws-elastic-beanstalk/
 me ajudou a subir totalmente via EB
 detalhe da instalacao: para conseguir automatizar a criacao do usuario era necessario criar uma app e nela criar a estrutura management/commands
+
+Usuario da base de dados local
+usuario: sudesteuser
+pwd: @Drsct098
