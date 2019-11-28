@@ -49,12 +49,12 @@ class cacamba(models.Model):
     tpCacamba = models.ForeignKey(tipocacamba,on_delete=models.CASCADE,verbose_name='Tipo de Cacamba', max_length=30, blank=True, null=True)
     espCacamba = models.CharField(max_length=100,blank=True,verbose_name='Especificacao')
     capCacamba = models.CharField(max_length=10,blank=True,verbose_name='Capacidade')
-    sttCacamba = models.IntegerField(verbose_name='Status',blank=True,null=True,default='Status')
-    tamCacamba = models.IntegerField(verbose_name='Tampa',blank=True)
-    traCacamba = models.IntegerField(verbose_name='Trava',blank=True)
-    funCacamba = models.IntegerField(verbose_name='Fundo',blank=True)
-    argCacamba = models.IntegerField(verbose_name='Argola',blank=True)
-    pinCacamba = models.IntegerField(verbose_name='Pintura',blank=True)
+    sttCacamba = models.IntegerField(verbose_name='Status',blank=True,null=True)
+    tamCacamba = models.IntegerField(verbose_name='Tampa',blank=True,null=True)
+    traCacamba = models.IntegerField(verbose_name='Trava',blank=True,null=True,default='0')
+    funCacamba = models.IntegerField(verbose_name='Fundo',blank=True,null=True,default='0')
+    argCacamba = models.IntegerField(verbose_name='Argola',blank=True,null=True)
+    pinCacamba = models.IntegerField(verbose_name='Pintura',blank=True,null=True,default='0')
     def __str__(self):
         return str(self.espCacamba)
     class Meta:
