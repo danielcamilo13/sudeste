@@ -13,7 +13,15 @@ class cacambaAdmin(admin.ModelAdmin):
     list_display =('nrcacamba','tpCacamba','espCacamba','capCacamba','sttCacamba','tamCacamba','traCacamba','funCacamba','argCacamba','pinCacamba')
     inlines = [historicocacambaAdmin]
     view_on_site = True
-
+    fieldsets = (
+      'Cacamba',{
+          'fields':(
+              ('tpCacamba', 'espCacamba'),
+              ('capCacamba', 'sttCacamba', 'tamCacamba'),
+              ('traCacamba','funCacamba', 'argCacamba', 'pinCacamba')
+          )
+      }
+    ),
 class cadastroMain(admin.ModelAdmin):
     list_display = ('nome', 'categoria', 'bairro', 'fone1')
 

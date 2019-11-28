@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['sudeste-env.rfbkp6m2xc.us-west-2.elasticbeanstalk.com','127.0.
 # Application definition
 
 INSTALLED_APPS = [
+    'solicitacao.apps.SolicitacaoConfig',
     'homepage.apps.HomepageConfig',
     'cadastro.apps.CadastroConfig',
     'inbox.apps.InboxConfig',
@@ -162,9 +163,9 @@ STATIC_ROOT = os.path.join(BASE_DIR,'..','medias','static')
 STATIC_URL = '/static/'
 
 #quando for executado localmente habilitar trecho abaixo
-# STATICFILES_DIRS = [
-#                     'static', os.path.join(BASE_DIR, 'sudeste','static'),
-#                     'medias',os.path.join(BASE_DIR,'static','medias'),
-#                     ]
-# MEDIA_URL='/media/'
-# MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+STATICFILES_DIRS = [
+                    'static', os.path.join(BASE_DIR, 'sudeste','static'),
+                    'medias',os.path.join(BASE_DIR,'static','medias'),
+                    ]
+MEDIA_URL='/media/'
+MEDIA_ROOT=os.path.join(BASE_DIR,'media')

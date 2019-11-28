@@ -11,7 +11,7 @@ class cidade(models.Model):
         return self.nm_cidade
 
     class Meta:
-        verbose_name = 'Cidade'
+        verbose_name = '5. Cidade'
 
 
 @python_2_unicode_compatible
@@ -23,16 +23,25 @@ class estado(models.Model):
         return self.nm_estado
 
     class Meta:
-        verbose_name = 'Estado'
+        verbose_name = '6. Estado'
 
 @python_2_unicode_compatible
 class tipocacamba(models.Model):
+    pole = 'pole'
+    rolon = 'rolon'
+    muk = 'muk'
+    tipos_cacamba = (
+        (pole, 'pole'),
+        (rolon, 'rolon'),
+        (muk, 'muk')
+    )
+
     id = models.AutoField(primary_key=True)
-    tpCacamba = models.CharField(max_length=30,blank=True,verbose_name='Tipo de Cacamba')
+    tpCacamba = models.CharField(max_length=15, choices=tipos_cacamba, null=True, verbose_name='Tipos de Cacambas')
     def __str__(self):
         return self.tpCacamba
     class Meta:
-        verbose_name='Tipos de Cacambas'
+        verbose_name='4. Tipos de Cacamba'
 
 @python_2_unicode_compatible
 class cacamba(models.Model):
@@ -40,12 +49,12 @@ class cacamba(models.Model):
     tpCacamba = models.ForeignKey(tipocacamba,on_delete=models.CASCADE,verbose_name='Tipo de Cacamba', max_length=30, blank=True, null=True)
     espCacamba = models.CharField(max_length=100,blank=True,verbose_name='Especificacao')
     capCacamba = models.CharField(max_length=10,blank=True,verbose_name='Capacidade')
-    sttCacamba = models.IntegerField(verbose_name='Status')
-    tamCacamba = models.IntegerField(verbose_name='Tampa')
-    traCacamba = models.IntegerField(verbose_name='Trava')
-    funCacamba = models.IntegerField(verbose_name='Fundo')
-    argCacamba = models.IntegerField(verbose_name='Argola')
-    pinCacamba = models.IntegerField(verbose_name='Pintura')
+    sttCacamba = models.IntegerField(verbose_name='Status',blank=True,null=True,default='Status')
+    tamCacamba = models.IntegerField(verbose_name='Tampa',blank=True)
+    traCacamba = models.IntegerField(verbose_name='Trava',blank=True)
+    funCacamba = models.IntegerField(verbose_name='Fundo',blank=True)
+    argCacamba = models.IntegerField(verbose_name='Argola',blank=True)
+    pinCacamba = models.IntegerField(verbose_name='Pintura',blank=True)
     def __str__(self):
         return str(self.espCacamba)
     class Meta:
@@ -131,4 +140,5 @@ class colaborador(models.Model):
     def __str__(self):
         return self.nm_colaborador
     class Meta:
-        verbose_name = '2. Colaboradores'
+        verbose_name = '2. Colaborador'
+        verbose_name_plural = '2. Colaboradores'

@@ -18,6 +18,7 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/cadastro/', include('cadastro.urls', namespace='upload')),
+    path('admin/solicitacao/', include('solicitacao.urls', namespace='index')),
     path('admin/', admin.site.urls),
 ]
 
