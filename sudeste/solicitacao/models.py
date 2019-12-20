@@ -64,11 +64,11 @@ class ordemServicoItem(models.Model):
 
 
 
-# class pedidosLista(pedidos):
-#     class Meta:
-#         proxy = True
-#         verbose_name = 'retirada de material'
-#         verbose_name_plural = 'Retirada de Materiais'
+class solicitarRetirada(ordemServico):
+    class Meta:
+        proxy = True
+        verbose_name = 'Solicitar retirada de material'
+        verbose_name_plural = 'Retirada de Materiais'
 #
 #
 # class pedidosFaturamento(pedidos):
