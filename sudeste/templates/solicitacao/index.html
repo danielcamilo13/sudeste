@@ -3,8 +3,44 @@
 
 {% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/dashboard.css" %}">{% endblock %}
 {% block content %}
-<div id="content-main">
-    <p>teste</p>
+<div class="results">
+    <table id="result_list">
+
+        <form action="{%url 'solicitacao:opcoes' %}" method="post">
+            <center>
+                {%csrf_token%}
+                <h3>Selecione a opcao desejada</h3>
+                <select name="select_opcoes">
+                    <option value="cacamba">Solicitar Caçamba</option>
+                    <option value="retirar">Retirar Caçamba</option>
+                    <option value="estado">Estado de Pedido</option>
+                </select>
+                <div>
+                    <input type="submit" value="continuar">
+                </div>
+            </center>
+        </form>
+		
+		
+        <div>
+			<form action="{% url 'solicitacao:confirmacao'%}" method="post">
+			{%csrf_token%}
+			{%if pedidos %}
+                {% for pedido in pedidos%}
+				{%if not pedido.quantidade%}
+                <tr class="{% cycle 'row1' 'row2' %}">
+                    <td><input type="radio" name="pedido" value={{pedido.tpCacamba}}>{{ pedido.tpCacamba }}</td>
+                </tr>
+				{%else%}
+                    <tr><td>Quantas cacambas?<input type="text" name="pedido" value=""></td></td>
+				{%endif%}
+                {% endfor %}
+				<tr><td><input type="submit" value="continuar"></td></tr>
+			</form>
+				{%endif%}
+        </div>
+    </table>
 </div>
+
 {%endblock%}
 {% block nav-global %}{% endblock %}

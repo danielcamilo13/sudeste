@@ -1,8 +1,8 @@
-from django.utils.encoding import python_2_unicode_compatible
+# from django.utils.encoding import python_2_unicode_compatible
 from django.db import models
 from datetime import datetime
 
-@python_2_unicode_compatible
+# @python_2_unicode_compatible
 class ordemServico(models.Model):
     a = 'em andamento'
     b = 'pendente'
@@ -43,7 +43,7 @@ class ordemServico(models.Model):
         verbose_name = 'Ordem de Serviço'
         verbose_name_plural = 'Ordens de serviço'
 
-@python_2_unicode_compatible
+# @python_2_unicode_compatible
 class ordemServicoItem(models.Model):
     id = models.AutoField(primary_key=True)
     nrItem = models.CharField(max_length=10, blank=True, verbose_name='Nr Controle Pedido', null=True)
@@ -60,9 +60,6 @@ class ordemServicoItem(models.Model):
     class Meta:
         verbose_name = 'Item'
         verbose_name_plural = 'Itens'
-
-
-
 
 class solicitarRetirada(ordemServico):
     class Meta:

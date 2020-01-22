@@ -1,0 +1,42 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_modify %}
+
+{% block extrastyle %}{{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% static " admin /css/dashboard.css" %}">{% endblock %}
+{% block content %}
+<div class="results">
+    <table id="result_list">
+
+        <form action="{%url 'solicitacao:pedidosDetalhe' %}" method="post">
+                {%csrf_token%}
+                <h3>Selecione a opcao desejada</h3>
+                <select name="selecionar_opcoes">
+                    <option value="cacamba">Solicitar Cacamba</option>
+                    <option value="retirar">Retirar Cacamba</option>
+                    <option value="estado">Estado de Pedido</option>
+                </select>
+                    <input type="submit" value="continuar">
+        </form>
+
+
+    <div>
+        <form action="{% url 'solicitacao:confirmacao'%}" method="post">
+            {%csrf_token%}
+            {{opt}}
+            <!--<input type="submit" value="gravar">-->
+        </form>
+    </div>
+    </table>
+</div>
+<!--
+    <div>
+        <form method="post">
+            {%csrf_token%}
+            {{pedidosDetForm}}
+            <input type="submit" value="submit">
+        </form>
+</div>
+-->
+
+{% endblock %}
+{% block nav-global %}{% endblock %}

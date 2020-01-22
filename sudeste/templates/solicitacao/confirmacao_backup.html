@@ -1,0 +1,21 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/dashboard.css" %}">{% endblock %}
+{% block content %}
+<div class="results">
+<table id="result_list">
+{{request.user}}
+{%if retorno%}
+<form action="{%url 'solicitacao:gravar'%}" method="post">
+{%csrf_token%}
+{{request}}
+{%for linha in retorno.values%}
+<p>{{linha}}</p>
+{%endfor%}
+{%endif%}
+<p><input type="submit" value="gravar"></p>
+</form>
+</table>
+</div>
+{% endblock %}
