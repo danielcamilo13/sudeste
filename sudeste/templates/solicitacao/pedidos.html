@@ -13,7 +13,7 @@
                 <select name="selecionar_opcoes">
                     <option value="cacamba">Solicitar Cacamba</option>
                     <option value="retirar">Retirar Cacamba</option>
-                    <option value="estado">Estado de Pedido</option>
+                    <option value="status">Status do Pedido</option>
                 </select>
                     <input type="submit" value="continuar">
         </form>
@@ -23,7 +23,7 @@
         <form action="{% url 'solicitacao:confirmacao'%}" method="post">
             {%csrf_token%}
             {{opt}}
-            <!--<input type="submit" value="gravar">-->
+            <input type="submit" value="gravar">
         </form>
     </div>
     </table>

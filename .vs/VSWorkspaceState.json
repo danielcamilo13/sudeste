@@ -6,9 +6,8 @@
     "\\sudeste\\cadastro\\__pycache__",
     "\\sudeste\\solicitacao",
     "\\sudeste\\templates",
-    "\\sudeste\\templates\\admin",
     "\\sudeste\\templates\\solicitacao"
   ],
-  "SelectedNode": "\\sudeste\\solicitacao\\views.py",
+  "SelectedNode": "\\sudeste\\solicitacao\\models.py",
   "PreviewInSolutionExplorer": false
 }
