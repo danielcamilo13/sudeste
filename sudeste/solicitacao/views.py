@@ -1,8 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render,get_object_or_404
 from django.http import HttpResponseRedirect,HttpResponse
 from cadastro.models import tipocacamba
-from .forms import pedidosForm,opcoesForm,textoForm
+from solicitacao.models import ordemServico
+from .forms import pedidosForm,opcoesForm,textoForm,statusForm
 import time
+from django.utils import timezone
+from datetime import datetime
 
 def index(request):
     return render(request,'solicitacao/index.html',{})
@@ -11,35 +14,50 @@ def pedidos(request):
     return render(request,'solicitacao/pedidos.html',{})
 
 def pedidosDetalhe(request):
+    #neworder = get_object_or_404(orderInstance,pk=pk)
+    neworder = ordemServico.objects.all()
+    usr = request.user.pk
+    ses = request.session
+    print(usr)
+    print(ses)
     if request.method=='POST':
         selecionado = request.POST['selecionar_opcoes']
         localizado=''
+        dia = timezone.now
         if selecionado == 'cacamba':
             localizado ={'retorno':'retorno de cacamba'}
             nros = time.time()
-            opt = opcoesForm(request.POST)
-            return render(request,'solicitacao/pedidos.html',{'localizado':localizado,'opt':opt})
+            form = opcoesForm(initial={'nrOS':nros,'nmCliente':request.user,'dia':dia,'tpsolicitacao':'cacamba'})
+            return render(request,'solicitacao/pedidos.html',{'localizado':localizado,'form':form})
         elif selecionado == 'retirar':
-            opt = textoForm(request.POST)
-            return render(request,'solicitacao/pedidos.html',{'localizado':localizado,'opt':opt})
+            form = textoForm(initial={'dia':dia,'tpsolicitacao':'retirar'})
+            return render(request,'solicitacao/pedidos.html',{'localizado':localizado,'form':form})
         else:
-            opt = textoForm(request.POST)
-            return render(request,'solicitacao/pedidos.html',{'localizado':localizado,'opt':opt})
+            form = statusForm(initial={'dataInicio':dia,'dataFim':dia,'tpsolicitacao':'retirar'})
+            return render(request,'solicitacao/pedidos.html',{'localizado':localizado,'form':form})
     else:
-        opt = {'chave vazio':'valor vazio'}
-        return render(request,'solicitacao/pedidos.html',{'localizado':localizado,'opt':opt})
+        form = {'chave vazio':'valor vazio'}
+        return render(request,'solicitacao/pedidos.html',{'localizado':localizado,'form':form})
 
 def confirmacao(request):
-    return render(request,'solicitacao/confirmacao.html',{'request':request})
-
-#def pedidos(request):
-#    if request.method == 'POST':
-#        form = orderForm(request.POST)
-#        if form.is_valid():
-#            return HttpResponseRedirect('solicitacao/confirmacao.html')
-#    else:
-#        form = orderForm()
-#    return render(request,'solicitacao/retorno.html',{'form':form})
+    if request.method=='POST':
+        d = request.POST['dia_day']
+        m = request.POST['dia_month']
+        a = request.POST['dia_year']
+        dia_join = str(a)+'/'+str(m)+'/'+str(d)
+        dia_valor = datetime.strptime(dia_join,'%Y/%m/%d')
+        if request.POST['tpsolicitacao']=='cacamba':
+            os = request.POST['nrOS']
+            cli = request.POST['nmCliente']
+            loc = request.POST['localizacao']
+            contexto={'os':os,'cli':cli,'loc':loc,'dia_valor':dia_valor}
+            ordemServico.objects.create(nrOS=os,dtSaida=dia_valor,nmCliente=cli)
+            ordemServico.save
+        elif request.POST['tpsolicitacao']=='retirar':
+            contexto = {'dia_valor':dia_valor}
+        else:
+            contexto = {'dia_valor':dia_valor}
+    return render(request,'solicitacao/confirmacao.html',{'request':request,'contexto':contexto})
 
 def opcoes(request):
     selecionado = ''; pedidos=''
@@ -54,14 +72,6 @@ def opcoes(request):
         elif selecionado=='estado':
             pedidos = ({'tpCacamba':'estado1'},{'tpCacamba':'estado2'},{'tpCacamba':'estado3'})
     return render(request,'solicitacao/index.html',context={'pedidos':pedidos,'selecionado':selecionado})
-
-#def confirmacao(request):
-#    #retorno = request.POST['tpCacamba']
-#    for k,v in request.POST.getlist():
-#        print('valor do k e do v')
-#    retorno = str(request.META['QUERY_STRING'])
-
-#    return render(request,'solicitacao/confirmacao.html',{'retorno':retorno})
 
 def gravar(request):
     return HttpResponse('Gravado')

@@ -2,12 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\sudeste",
-    "\\sudeste\\cadastro",
-    "\\sudeste\\cadastro\\__pycache__",
+    "\\sudeste\\main",
     "\\sudeste\\solicitacao",
     "\\sudeste\\templates",
     "\\sudeste\\templates\\solicitacao"
   ],
-  "SelectedNode": "\\sudeste\\solicitacao\\models.py",
+  "SelectedNode": "\\sudeste\\solicitacao\\views.py",
   "PreviewInSolutionExplorer": false
 }

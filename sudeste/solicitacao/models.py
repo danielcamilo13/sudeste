@@ -9,18 +9,18 @@ class ordemServico(models.Model):
     c = 'rejeitado'
     d = 'finalizado'
     e = 'transporte'
-    f = 'Solicitar retirada'
+    retirar = 'Solicitar retirada'
     g = 'Confirmar retirada'
-    h = 'Solicitar cacamba'
+    cacamba = 'Solicitar cacamba'
     status_opt = (
         (a, 'em andamento'),
         (b, 'pendente'),
         (c, 'rejeitado'),
         (d, 'finalizado'),
         (e, 'transporte'),
-        (f, 'Solicitar retirada'),
+        (retirar, 'Solicitar retirada'),
         (g, 'Confirmar retirada'),
-        (h, 'Solicitar cacamba'),
+        (cacamba, 'Solicitar cacamba'),
     )
     id = models.AutoField(primary_key=True)
     nrOS = models.CharField(max_length=20, blank=False, null=False, verbose_name='Ordem de Serviço')
